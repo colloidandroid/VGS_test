@@ -1,0 +1,30 @@
+{
+  "name": "form-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "mongoose": "^5.11.17",
+    "https-proxy-agent": "^5.0.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2",
+    "axios": "^0.21.1",
+    "fs": "^0.0.1-security",
+    "tunnel": "^0.0.6",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^2.2.26",
+    "nodemon": "^2.0.7"
+  }
+}
