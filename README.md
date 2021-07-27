@@ -1,6 +1,7 @@
 # VGS_test
 
-Pre-requisites:
+  Pre-requisites:
+
 
 Install and run mongoDB (run on standard "mongodb://localhost:27017")
 
@@ -9,14 +10,19 @@ Install and run ngrok.
 Download sandbox.pem certificate.
 
 Populate .env file with the below vars:
-PORT
-VAULT_ID
-HTTPS_PROXY_USERNAME
-HTTPS_PROXY_PASSWORD
+
+  PORT
+
+  VAULT_ID
+
+  HTTPS_PROXY_USERNAME
+
+  HTTPS_PROXY_PASSWORD
 
 
 
-To start:
+
+  To start:
 
 Copy project.
 
@@ -26,7 +32,8 @@ Run project.
 
 
 
-1. To see redacted data.
+
+  1. To see redacted data.
 
 Create an inbound VGS route, use upstream=your_ngrok_url, secure payload.
 
@@ -38,17 +45,22 @@ Go back, press link "view feedbacks" to fetch all saved values.
 
 
 
-2. To see revealed data.
+
+  2. To see revealed data.
 
 Create an outbound VGS route, use echo server (https://echo.apps.verygood.systems), secure payload.
 
 Setup a proxy settings in your browser (Firefox recomended).
 
-Use 
+  Use 
 
-HTTPS Proxy: {VAULT_ID}.SANDBOX.verygoodproxy.com:8080
-Username: {HTTPS_PROXY_USERNAME}
-Password: {HTTPS_PROXY_PASSWORD}
+  HTTPS Proxy: {VAULT_ID}.SANDBOX.verygoodproxy.com:8080
+
+  Username: {HTTPS_PROXY_USERNAME}
+
+  Password: {HTTPS_PROXY_PASSWORD}
+
+
 
 Upload your sandbox.pem certificate.
 
