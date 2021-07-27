@@ -44,6 +44,8 @@ Enter data and press submit, see tokenized values.
 Go back, press link "view feedbacks" to fetch all saved values.
 
 
+https://youtu.be/EcyZ3oUk-5U
+
 
 
   2. To see revealed data.
@@ -69,3 +71,6 @@ Browse http://localhost:{PORT}/post-tokens
 Enter tok data and press submit.
 
 Check revealed values in responce.
+
+
+https://youtu.be/8KaBkVP-eDA
